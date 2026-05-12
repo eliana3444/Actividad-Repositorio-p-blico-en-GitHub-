@@ -3,6 +3,7 @@
 ## 1. Crear una nueva rama local con mi nombre
 ```bash
 git checkout -b saraBastidas
+
 ```
 
 ## 2. Crear un nuevo commit en esa rama local
