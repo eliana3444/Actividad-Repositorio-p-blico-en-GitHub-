@@ -1,4 +1,11 @@
-from frontend import mostrar_menu, mostrar_todos_los_productos, mostrar_producto_por_id
+from frontend import (
+    mostrar_actualizar_producto,
+    mostrar_crear_producto,
+    mostrar_eliminar_producto,
+    mostrar_menu,
+    mostrar_producto_por_id,
+    mostrar_todos_los_productos,
+)
 
 
 def main():
@@ -10,6 +17,12 @@ def main():
         elif opcion == "2":
             mostrar_producto_por_id()
         elif opcion == "3":
+            mostrar_crear_producto()
+        elif opcion == "4":
+            mostrar_actualizar_producto()
+        elif opcion == "5":
+            mostrar_eliminar_producto()
+        elif opcion == "6":
             print("¡Hasta luego!")
             break
         else:
